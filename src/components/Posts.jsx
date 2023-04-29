@@ -1,19 +1,14 @@
 import { Post } from "./Post"
+import{posts} from "../posts.json"
 
 export function Posts () {
-
-    const title = "Postagem 1"
-    const descriptions = "lorem ipsum dolor sit amet, consectetur adipiscing elit post 1."
-    const title2 = "Postagem 2"
-    const descriptions2 = "lorem ipsum dolor sit amet, consectetur adipiscing elit post 2."
-
-
 
   return (
     <div>
         <ul>
-             <Post titulo={title} paragrafo={descriptions} />
-            <Post titulo={title2} paragrafo={descriptions2} />
+            {posts.map((post) => (
+                <Post key={post.id} titulo={post.title} paragrafo={post.description }/>
+            ))}
         
         </ul>
        
