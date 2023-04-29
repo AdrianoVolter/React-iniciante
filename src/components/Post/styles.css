@@ -1,0 +1,14 @@
+li{
+    max-width: 720px;
+    width: 100%;
+
+    list-style: none;
+}
+
+h2 {
+    color: var(--black-800);
+}
+
+p {
+    color: var(--black-700);
+}
