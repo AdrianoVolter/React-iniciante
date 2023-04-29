@@ -1,5 +1,6 @@
-import { Post } from "./Post"
-import{posts} from "../posts.json"
+import { Post } from "../Post"
+import{posts} from "../../posts.json"
+import "./styles.css"
 
 export function Posts () {
 

@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-
+import './styles.css';
 
 export function Post ({ titulo, paragrafo, }) {
 
